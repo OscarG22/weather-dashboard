@@ -8,6 +8,8 @@
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Load icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Weather Dashboard</title>
 
 </head>
@@ -16,10 +18,19 @@
     <header class="jumbotron">
         <h1>Weather Dashboard</h1>
     </header>
-    <h6>City Temperature</h6>
-    <p id="currentcity"></p>
 
+    <!-- The form -->
+    <form class="example" action="action_page.php">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
 
+    <div>
+        <h6>City Temperature</h6>
+        <p id="currentcity"></p>
+        <h6>Humidity</h6>
+        <p id="cityhumidity"></p>
+    </div>
 
 
     <!--Bootstrap JS-->
