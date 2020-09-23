@@ -15,7 +15,8 @@ body {
   * {
     box-sizing: border-box;
   }
-  
+
+  /* Code source is bootstrap */
   /* Style the search field */
   form.example input[type=text] {
     padding: 10px;
